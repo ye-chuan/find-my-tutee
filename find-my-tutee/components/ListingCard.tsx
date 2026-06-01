@@ -1,23 +1,32 @@
-import { Card, CardHeader, CardTitle, CardDescription, CardAction, CardContent, CardFooter } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { TagLine } from "@/components/TagLine"
-import { BookText, GraduationCap, House } from "lucide-react"
+//"use client"
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardAction,
+  CardContent,
+  CardFooter,
+} from "@/components/ui/card";
+import { URLButton } from "@/components/URLButton";
+import { TagLine } from "@/components/TagLine";
+import { BookText, GraduationCap, House } from "lucide-react";
+import { ListingDetails } from "@/components/ListingDetails";
 
 interface ListingCardProps {
-  subject: string;
-  agency: string;
+  details: ListingDetails;
 }
 
-export function ListingCard({ subject, agency }: ListingCardProps) {
+export function ListingCard({ details }: ListingCardProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="wrap-anywhere">{subject}</CardTitle>
-        <CardDescription>{agency}</CardDescription>
+        <CardTitle className="wrap-anywhere">{details.subject}</CardTitle>
+        <CardDescription>{details.agency}</CardDescription>
         <CardAction>
-          <div>PT $25 - $50</div>
-          <div>FT $25 - $50</div>
-          <div>MOE $25 - $50</div>
+          <div>PT {details.pt}</div>
+          <div>FT {details.ft}</div>
+          <div>MOE {details.moe}</div>
         </CardAction>
       </CardHeader>
       <CardContent className="flex flex-col gap-4">
@@ -36,14 +45,12 @@ export function ListingCard({ subject, agency }: ListingCardProps) {
           </div>
         </div>
 
-        <div>
-          Student struggles with trigonometry. Easily distracted.
-        </div>
+        <div>{details.description}</div>
       </CardContent>
       <CardFooter>
         <TagLine />
       </CardFooter>
-      <Button>Apply</Button>
+      <URLButton url={details.url}></URLButton>
     </Card>
-  )
+  );
 }

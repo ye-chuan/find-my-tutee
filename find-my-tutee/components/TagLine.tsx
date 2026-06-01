@@ -1,5 +1,5 @@
-import { Badge } from "@/components/ui/badge"
-import { BookText, Globe } from "lucide-react"
+import { Badge } from "@/components/ui/badge";
+import { BookText, Globe } from "lucide-react";
 
 export function TagLine() {
   return (
@@ -13,5 +13,5 @@ export function TagLine() {
         EliteTutors
       </Badge>
     </div>
-  )
+  );
 }
