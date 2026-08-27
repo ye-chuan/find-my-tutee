@@ -1,15 +1,44 @@
 import { Button } from "@/components/ui/button";
-import { ListingDetails } from "@/components/ListingDetails";
 import { ListingCard } from "@/components/ListingCard";
+import { Listing } from "@/lib/schemas/listing";
 
-const test = new ListingDetails(
-  "Math",
-  "EliteTutors",
-  "$25-$50",
-  "$25-$50",
-  "$25-$50",
-  "https://www.elitetutor.sg/k17782-jc1-h2-economics-bishan-street-13-45-130-hour/",
-);
+const test: Listing = {
+  id: "job_987654321",
+  sourceId: "EXT-2026-89A",
+  agencyName: "Apex Tuition Agency",
+  subject: "G2 Mathematics",
+  acadLevel: "Sec 3",
+  location: "Bishan MRT / Ang Mo Kio Area",
+  ratePtMin: 45,
+  ratePtMax: 45,
+
+  schedule: "Once a week, 1.5 hours (Saturdays 10:00 AM)",
+  description:
+    "Looking for an engaging tutor familiar with the latest syllabus.",
+  sourceUrl: "https://apextuition.example.com/listings/job_987654321",
+};
+
+const test1: Listing = {
+  id: "job_987654321",
+  sourceId: "EXT-2026-89A",
+  agencyName: "Apex Tuition Agency",
+  subject: "G2 Mathematics",
+  acadLevel: "Sec 3",
+  location: "Bishan MRT / Ang Mo Kio Area",
+  ratePtMin: 45,
+  ratePtMax: 45,
+  rateFtMin: 45,
+  rateFtMax: 45,
+  rateExMoeMin: 45,
+  rateExMoeMax: 45,
+  rateCurMoeMin: 45,
+  rateCurMoeMax: 45,
+
+  schedule: "Once a week, 1.5 hours (Saturdays 10:00 AM)",
+  description:
+    "Looking for an engaging tutor familiar with the latest syllabus.Looking for an engaging tutor familiar with the latest syllabus.Looking for an engaging tutor familiar with the latest syllabus.Looking for an engaging tutor familiar with the latest syllabus.Looking for an engaging tutor familiar with the latest syllabus.v",
+  sourceUrl: "https://apextuition.example.com/listings/job_987654321",
+};
 
 export default function Page() {
   return (
@@ -26,7 +55,7 @@ export default function Page() {
         </div>
         <div className="flex flex-wrap justify-center gap-2">
           <ListingCard details={test} />
-          <ListingCard details={test} />
+          <ListingCard details={test1} />
           <ListingCard details={test} />
           <ListingCard details={test} />
         </div>
