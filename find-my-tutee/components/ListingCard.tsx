@@ -11,46 +11,102 @@ import {
 import { URLButton } from "@/components/URLButton";
 import { TagLine } from "@/components/TagLine";
 import { BookText, GraduationCap, House } from "lucide-react";
-import { ListingDetails } from "@/components/ListingDetails";
+import { Listing } from "@/lib/schemas/listing";
+
+function RateDisplay({
+  rateMin,
+  rateMax,
+  rateType,
+}: {
+  rateMin?: number;
+  rateMax?: number;
+  rateType: string;
+}) {
+  let text: string;
+  if (rateMin === undefined || rateMax === undefined) {
+    return null;
+  }
+  if (rateMin === rateMax) {
+    text = rateMax.toString();
+  } else {
+    text = `${rateMin}-${rateMax}`;
+  }
+  return (
+    <div>
+      {rateType}
+      {" $"}
+      {text}
+    </div>
+  );
+}
 
 interface ListingCardProps {
-  details: ListingDetails;
+  details: Listing;
 }
 
 export function ListingCard({ details }: ListingCardProps) {
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle className="wrap-anywhere">{details.subject}</CardTitle>
-        <CardDescription>{details.agency}</CardDescription>
-        <CardAction>
-          <div>PT {details.pt}</div>
-          <div>FT {details.ft}</div>
-          <div>MOE {details.moe}</div>
-        </CardAction>
-      </CardHeader>
+    <Card className="w-110">
       <CardContent className="flex flex-col gap-4">
-        <div>
-          <div className="flex items-center gap-2">
-            <BookText className="w-4" />
-            H2 Mathematics
+        <div className="flex flex-col">
+          <div className="flex min-h-20">
+            <CardTitle className="wrap-anywhere">
+              {details.subject}
+              <CardDescription>{details.agencyName}</CardDescription>
+            </CardTitle>
+            {/* <CardDescription>{details.agencyName}</CardDescription> */}
+
+            <div className="ml-auto">
+              <RateDisplay
+                rateMin={details.ratePtMin}
+                rateMax={details.ratePtMax}
+                rateType="PT"
+              />
+              <RateDisplay
+                rateMin={details.rateFtMin}
+                rateMax={details.rateFtMax}
+                rateType="FT"
+              />
+              <RateDisplay
+                rateMin={details.rateExMoeMin}
+                rateMax={details.rateExMoeMax}
+                rateType="E-MOE"
+              />
+              <RateDisplay
+                rateMin={details.rateCurMoeMin}
+                rateMax={details.rateCurMoeMax}
+                rateType="C-MOE"
+              />
+              <RateDisplay
+                rateMin={details.rateGenMin}
+                rateMax={details.rateGenMax}
+                rateType=""
+              />
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <GraduationCap className="w-4" />
-            JC 2
-          </div>
-          <div className="flex items-center gap-2">
-            <House className="w-4" />
-            322 Hougang Ave 8
+          <div>
+            <div className="flex items-center gap-2">
+              <BookText className="w-4" />
+              H2 Mathematics
+            </div>
+            <div className="flex items-center gap-2">
+              <GraduationCap className="w-4" />
+              JC 2
+            </div>
+            <div className="flex items-center gap-2">
+              <House className="w-4" />
+              322 Hougang Ave 8
+            </div>
           </div>
         </div>
-
-        <div>{details.description}</div>
+        <div className="grid h-18 [scrollbar-width:none] place-items-center overflow-auto">
+          {details.description}
+        </div>
       </CardContent>
       <CardFooter>
         <TagLine />
       </CardFooter>
-      <URLButton url={details.url}></URLButton>
+      <URLButton url={details.sourceUrl}></URLButton>
     </Card>
   );
 }
