@@ -12,6 +12,7 @@ import { URLButton } from "@/components/URLButton";
 import { TagLine } from "@/components/TagLine";
 import { BookText, GraduationCap, House } from "lucide-react";
 import { Listing } from "@/lib/schemas/listing";
+import { MarqueeText } from "@/components/MarqueeText";
 
 function RateDisplay({
   rateMin,
@@ -49,14 +50,14 @@ export function ListingCard({ details }: ListingCardProps) {
     <Card className="w-110">
       <CardContent className="flex flex-col gap-4">
         <div className="flex flex-col">
-          <div className="flex min-h-20">
-            <CardTitle className="wrap-anywhere">
-              {details.subject}
+          <div className="flex min-h-20 gap-x-8">
+            <CardTitle className="overflow-hidden whitespace-nowrap">
+              <MarqueeText text={details.subject} />
               <CardDescription>{details.agencyName}</CardDescription>
             </CardTitle>
             {/* <CardDescription>{details.agencyName}</CardDescription> */}
 
-            <div className="ml-auto">
+            <div className="ml-auto flex-none">
               <RateDisplay
                 rateMin={details.ratePtMin}
                 rateMax={details.ratePtMax}
