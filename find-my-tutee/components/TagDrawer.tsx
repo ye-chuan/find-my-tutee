@@ -1,33 +1,14 @@
-import { Button } from "@/components/ui/button";
-import { TagCarousel } from "@/components/TagCarousel";
+import { TagDrawerClient } from "./TagDrawerClient";
 
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
+export type TagState = Record<string, boolean>;
 
-export function TagDrawer() {
-  return (
-    <Drawer showSwipeHandle>
-      <DrawerTrigger render={<Button variant="destructive">FILTER</Button>} />
-      <DrawerContent>
-        <DrawerHeader>
-          <DrawerTitle>Drawer</DrawerTitle>
-          <DrawerDescription>Drawer with a swipe handle.</DrawerDescription>
-        </DrawerHeader>
-        <div className="mx-50">
-          <TagCarousel />
-        </div>
-        <DrawerFooter>
-          <DrawerClose render={<Button>Close</Button>} />
-        </DrawerFooter>
-      </DrawerContent>
-    </Drawer>
-  );
+export function TagDrawer({ tagMap }: { tagMap: Map<string, string[]> }) {
+  const initialStateMap: Record<string, TagState> = {};
+  for (const [category, tags] of tagMap) {
+    const initialTags: TagState = {};
+    tags.forEach((tag) => (initialTags[tag] = false));
+    initialStateMap[category] = initialTags;
+  }
+
+  return <TagDrawerClient initialStateMap={initialStateMap} />;
 }

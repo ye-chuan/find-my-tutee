@@ -6,23 +6,25 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { TagGroup } from "./TagGroup";
-import { getTags } from "@/app/actions/getTags";
+import type { TagState } from "@/components/TagDrawerClient";
 
-const subjects = await getTags("subject", "allsubjects");
-console.log(subjects);
-export function TagCarousel() {
+interface TagCarouselProps {
+  catToTags: Record<string, TagState>;
+  onTagToggle: (category: string, tag: string) => void;
+}
+export function TagCarousel({ catToTags, onTagToggle }: TagCarouselProps) {
   return (
     <Carousel>
       <CarouselContent>
-        <CarouselItem>
-          <TagGroup tags={subjects} />
-        </CarouselItem>
-        <CarouselItem>
-          <TagGroup tags={subjects} />
-        </CarouselItem>
-        <CarouselItem>
-          <TagGroup tags={subjects} />
-        </CarouselItem>
+        {Object.entries(catToTags).map(([category, tags]) => (
+          <CarouselItem key={category}>
+            <TagGroup
+              tags={tags}
+              category={category}
+              onTagToggle={onTagToggle}
+            />
+          </CarouselItem>
+        ))}
       </CarouselContent>
       <CarouselPrevious />
       <CarouselNext />

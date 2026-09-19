@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ListingCard } from "@/components/ListingCard";
 import { Listing } from "@/lib/schemas/listing";
 import { TagDrawer } from "@/components/TagDrawer";
+import { getTags } from "./actions/getTags";
 
 const test: Listing = {
   id: "job_987654321",
@@ -41,13 +42,18 @@ const test1: Listing = {
     "Looking for an engaging tutor familiar with the latest syllabus.",
   sourceUrl: "https://apextuition.example.com/listings/job_987654321",
 };
+const tagMap = new Map<string, string[]>();
+tagMap.set("levels", await getTags("level", "alllevels"));
+tagMap.set("bands", await getTags("band", "allbands"));
+tagMap.set("subjects", await getTags("subject", "allsubjects"));
+console.log(tagMap);
 
 export default function Page() {
   return (
     <div className="flex min-h-svh p-6">
       <div className="flex flex-col items-center gap-4">
         <div>
-          <TagDrawer />
+          <TagDrawer tagMap={tagMap} />
         </div>
         <div className="font-mono text-xs text-muted-foreground">
           (Press <kbd>d</kbd> to toggle dark mode)
