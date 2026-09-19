@@ -7,9 +7,9 @@ export async function getTags(db: string, col: string): Promise<string[]> {
   `;
 
   try {
-    const { rows } = await pool.query<{ subject: string }>(queryText);
-    // Maps the result rows array to return a flat array of strings
-    return rows.map((row) => row.subject);
+    const { rows } = await pool.query<Record<string, string>>(queryText);
+    // Dynamically access key matching the db parameter name
+    return rows.map((row) => row[db]);
   } catch (error) {
     console.error("Error fetching subjects:", error);
     throw error;

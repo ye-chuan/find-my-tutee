@@ -1,31 +1,24 @@
 "use client";
-import { useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 
 type TagState = Record<string, boolean>;
 interface TagGroupProps {
-  tags: string[];
+  category: string;
+  tags: TagState;
+  onTagToggle: (category: string, tag: string) => void;
 }
 
-export function TagGroup({ tags }: TagGroupProps) {
-  const [selectedTags, setSelectedTags] = useState<TagState>({});
-
-  const handleTag = (tag: string): void => {
-    setSelectedTags((prev) => ({
-      ...prev,
-      [tag]: !prev[tag],
-    }));
-  };
-
+export function TagGroup({ category, tags, onTagToggle }: TagGroupProps) {
+  const tagsPressed: string[] = Object.keys(tags).filter((tag) => tags[tag]);
   return (
     <div className="group-data-[swipe-axis=x]/drawer-popup:size-full group-data-[swipe-axis=y]/drawer-popup:h-80 group-data-[swipe-axis=y]/drawer-popup:w-full">
-      <ToggleGroup variant="outline" multiple>
+      <ToggleGroup variant="outline" multiple value={tagsPressed}>
         <div className="flex flex-wrap gap-2">
-          {tags.map((tag) => (
+          {Object.keys(tags).map((tag) => (
             <ToggleGroupItem
               key={tag}
               value={tag}
-              onClick={() => handleTag(tag)}
+              onClick={() => onTagToggle(category, tag)}
             >
               {tag}
             </ToggleGroupItem>
