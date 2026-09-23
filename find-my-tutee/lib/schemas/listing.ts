@@ -13,6 +13,7 @@ export const ListingSchema = z.object({
       "Each subject refers to a specific syllabus, typically without the level. e.g. G2 Mathematics",
     ),
   acadLevel: z.string().describe("e.g. P3, Sec 3, J2"),
+  band: z.string().describe("e.g. Standard, G1, H2"),
   location: z
     .string()
     .optional()
