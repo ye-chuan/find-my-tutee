@@ -6,7 +6,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { TagGroup } from "./TagGroup";
-import type { TagState } from "@/components/TagDrawerClient";
+import type { TagState } from "@/components/TagDrawer";
 
 interface TagCarouselProps {
   catToTags: Record<string, TagState>;
