@@ -11,7 +11,7 @@ interface TagGroupProps {
 export function TagGroup({ category, tags, onTagToggle }: TagGroupProps) {
   const tagsPressed: string[] = Object.keys(tags).filter((tag) => tags[tag]);
   return (
-    <div className="group-data-[swipe-axis=x]/drawer-popup:size-full group-data-[swipe-axis=y]/drawer-popup:h-80 group-data-[swipe-axis=y]/drawer-popup:w-full">
+    <div className="w-full py-10">
       <ToggleGroup variant="outline" multiple value={tagsPressed}>
         <div className="flex flex-wrap gap-2">
           {Object.keys(tags).map((tag) => (
