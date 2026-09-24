@@ -36,8 +36,10 @@ export function TagDrawerClient({
       <DrawerTrigger render={<Button variant="destructive">FILTER</Button>} />
       <DrawerContent>
         <DrawerHeader>
-          <DrawerTitle>Drawer</DrawerTitle>
-          <DrawerDescription>Drawer with a swipe handle.</DrawerDescription>
+          <DrawerTitle>Filters</DrawerTitle>
+          <DrawerDescription>
+            Click on tags below to filter listings.
+          </DrawerDescription>
         </DrawerHeader>
         <div className="mx-50">
           <TagCarousel catToTags={catToTags} onTagToggle={handleTag} />

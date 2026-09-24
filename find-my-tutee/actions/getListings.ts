@@ -4,9 +4,9 @@ import { Listing, ListingSchema } from "@/lib/schemas/listing";
 import { z } from "zod";
 
 export interface FilterParams {
-  // levels?: string[];
-  // bands?: string[];
-  // subjects?: string[];
+  levels?: string[];
+  bands?: string[];
+  subjects?: string[];
   page?: number;
   limit?: number;
 }
