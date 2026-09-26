@@ -12,6 +12,7 @@ export default function Page() {
   return (
     <div className="flex min-h-svh justify-center p-6">
       <div className="flex flex-col items-center gap-4">
+        <div className="font-mono text-3xl font-bold">Find My Tutee</div>
         <div className="font-mono text-xs text-muted-foreground">
           (Press <kbd>d</kbd> to toggle dark mode)
         </div>

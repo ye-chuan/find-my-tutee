@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 interface NavBarProps {
   onNext: () => Promise<void>;
   onPrev: () => Promise<void>;
@@ -9,11 +10,11 @@ export function NavBar({ onNext, onPrev, children }: NavBarProps) {
   return (
     <div className="flex flex-wrap justify-center gap-2 md:flex-row">
       <Button variant="outline" onClick={onPrev}>
-        Prev
+        <ArrowLeftIcon />
       </Button>
       {children}
       <Button variant="outline" onClick={onNext}>
-        Next
+        <ArrowRightIcon />
       </Button>
     </div>
   );
