@@ -100,12 +100,13 @@ export function ListingCard({ details }: ListingCardProps) {
             </div>
           </div>
         </div>
-        <div className="grid h-18 [scrollbar-width:none] place-items-center overflow-auto">
+        <div className="place-items grid h-18 [scrollbar-width:none] overflow-auto">
           {details.description}
         </div>
       </CardContent>
       <CardFooter>
         <TagLine />
+        {/* Instead of tags put when the listing was listed */}
       </CardFooter>
       <URLButton url={details.sourceUrl}></URLButton>
     </Card>
