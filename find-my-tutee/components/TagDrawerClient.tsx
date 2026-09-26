@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { TagCarousel } from "@/components/TagCarousel";
 import { TagState } from "./TagDrawer";
+import { useFilterContext } from "./FilterContext";
 import {
   Drawer,
   DrawerClose,
@@ -22,6 +23,7 @@ export function TagDrawerClient({
 }) {
   const [catToTags, setCatToTags] =
     useState<Record<string, TagState>>(initialStateMap);
+  const { onFilterApply } = useFilterContext();
   const handleTag = (category: string, tag: string): void => {
     setCatToTags((prev) => ({
       ...prev,
@@ -31,8 +33,13 @@ export function TagDrawerClient({
       },
     }));
   };
+  const handleOpenChange = (open: boolean) => {
+    if (!open) {
+      onFilterApply(catToTags);
+    }
+  };
   return (
-    <Drawer showSwipeHandle>
+    <Drawer showSwipeHandle onOpenChange={handleOpenChange}>
       <DrawerTrigger render={<Button variant="destructive">FILTER</Button>} />
       <DrawerContent>
         <DrawerHeader>

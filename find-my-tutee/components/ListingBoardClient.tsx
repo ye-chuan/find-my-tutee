@@ -5,6 +5,8 @@ import { ListingCard } from "./ListingCard";
 import { useState } from "react";
 import { NavBar } from "./NavBar";
 import { FilterParams, getListings } from "@/actions/getListings";
+import { FilterProvider } from "./FilterContext";
+import type { TagState } from "./TagDrawer";
 
 interface ListingBoardClientProps {
   initialListings: Listing[];
@@ -18,12 +20,16 @@ export function ListingBoardClient({
 }: ListingBoardClientProps) {
   const [page, setPage] = useState(1);
   const [listings, setListings] = useState(initialListings);
+  const [currentFilters, setCurrentFilters] = useState<FilterParams>({});
 
   async function handleNext() {
     const nextPage = page + 1;
     const nextListings = await getListings({
       page: nextPage,
       limit: limit,
+      subjects: currentFilters.subjects,
+      bands: currentFilters.bands,
+      levels: currentFilters.levels,
     });
     if (nextListings.length > 0) {
       setPage(nextPage);
@@ -37,12 +43,16 @@ export function ListingBoardClient({
     const prevListings = await getListings({
       page: prevPage,
       limit: limit,
+      subjects: currentFilters.subjects,
+      bands: currentFilters.bands,
+      levels: currentFilters.levels,
     });
     setListings(prevListings);
   }
 
   // Finish up this function and pass it down to the TagDrawerClient theough NavBar to use function upon close
-  async function handleFilter(filters: FilterParams) {
+  async function handleFilter(catToTags: Record<string, TagState>) {
+    const filters = tagStateToFilterParams(catToTags);
     const filteredListings = await getListings({
       page: 1,
       limit: limit,
@@ -51,6 +61,21 @@ export function ListingBoardClient({
       levels: filters.levels,
     });
     setListings(filteredListings);
+    setPage(1);
+  }
+
+  function tagStateToFilterParams(
+    catToTags: Record<string, TagState>,
+  ): FilterParams {
+    const result: FilterParams = {};
+    for (const [category, tags] of Object.entries(catToTags)) {
+      const selected = Object.keys(tags).filter((tag) => tags[tag]);
+      if (selected.length === 0) continue;
+      const key = `${category}` as keyof FilterParams;
+      (result[key] as string[]) = selected;
+    }
+    setCurrentFilters(result);
+    return result;
   }
 
   return (
@@ -61,7 +86,9 @@ export function ListingBoardClient({
         ))}
       </div>
       <div className="p-6">
-        <NavBar onNext={handleNext} onPrev={handlePrev} children={children} />
+        <FilterProvider onFilterApply={handleFilter}>
+          <NavBar onNext={handleNext} onPrev={handlePrev} children={children} />
+        </FilterProvider>
       </div>
     </div>
   );
