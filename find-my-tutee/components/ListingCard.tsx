@@ -88,15 +88,15 @@ export function ListingCard({ details }: ListingCardProps) {
           <div>
             <div className="flex items-center gap-2">
               <BookText className="w-4" />
-              H2 Mathematics
+              {details.band} {details.subject}
             </div>
             <div className="flex items-center gap-2">
               <GraduationCap className="w-4" />
-              JC 2
+              {details.acadLevel}
             </div>
             <div className="flex items-center gap-2">
               <House className="w-4" />
-              322 Hougang Ave 8
+              {details.location}
             </div>
           </div>
         </div>

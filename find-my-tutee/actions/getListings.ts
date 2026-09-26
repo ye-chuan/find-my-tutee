@@ -20,23 +20,23 @@ export async function getListings(filters: FilterParams): Promise<Listing[]> {
   const conditions: string[] = [];
   const values: (string | number | string[])[] = [];
 
-  // // 1. levels filter (OR within array)
-  // if (filters.levels && filters.levels.length > 0) {
-  //   values.push(filters.levels);
-  //   conditions.push(`category = ANY($${values.length})`);
-  // }
+  // 1. levels filter (OR within array)
+  if (filters.levels && filters.levels.length > 0) {
+    values.push(filters.levels);
+    conditions.push(`level = ANY($${values.length})`);
+  }
 
-  // // 2. Bands filter (OR within array)
-  // if (filters.bands && filters.bands.length > 0) {
-  //   values.push(filters.bands);
-  //   conditions.push(`band = ANY($${values.length})`);
-  // }
+  // 2. Bands filter (OR within array)
+  if (filters.bands && filters.bands.length > 0) {
+    values.push(filters.bands);
+    conditions.push(`band = ANY($${values.length})`);
+  }
 
-  // // 3. Subjects filter (OR within array)
-  // if (filters.subjects && filters.subjects.length > 0) {
-  //   values.push(filters.subjects);
-  //   conditions.push(`subject = ANY($${values.length})`);
-  // }
+  // 3. Subjects filter (OR within array)
+  if (filters.subjects && filters.subjects.length > 0) {
+    values.push(filters.subjects);
+    conditions.push(`subject = ANY($${values.length})`);
+  }
 
   // Add pagination limits
   values.push(limit, offset);
