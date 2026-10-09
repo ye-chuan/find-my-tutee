@@ -7,19 +7,29 @@ export interface FilterParams {
   levels?: string[];
   bands?: string[];
   subjects?: string[];
+  search?: string;
   page?: number;
   limit?: number;
 }
 
 export async function getListings(filters: FilterParams): Promise<Listing[]> {
   const page = filters.page || 1;
-  const limit = filters.limit || 20;
+  const limit = filters.limit || 9;
   const offset = (page - 1) * limit;
 
   // Base condition (AND across conditions)
   const conditions: string[] = [];
   const values: (string | number | string[])[] = [];
+  const search = filters.search?.trim();
+  let orderBy = "ORDER BY id DESC"; // deterministic default
+  if (search) {
+    values.push(search);
+    const idx = values.length;
+    const tsQuery = `websearch_to_tsquery('english', $${idx})`;
 
+    conditions.push(`search_vector @@ ${tsQuery}`);
+    orderBy = `ORDER BY ts_rank(search_vector, ${tsQuery}) DESC, id DESC`;
+  }
   // 1. levels filter (OR within array)
   if (filters.levels && filters.levels.length > 0) {
     values.push(filters.levels);

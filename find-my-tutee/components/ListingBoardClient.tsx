@@ -7,6 +7,7 @@ import { NavBar } from "./NavBar";
 import { FilterParams, getListings } from "@/actions/getListings";
 import { FilterProvider } from "./FilterContext";
 import type { TagState } from "./TagDrawer";
+import { SearchBar } from "./SearchBar";
 
 interface ListingBoardClientProps {
   initialListings: Listing[];
@@ -21,6 +22,7 @@ export function ListingBoardClient({
   const [page, setPage] = useState(1);
   const [listings, setListings] = useState(initialListings);
   const [currentFilters, setCurrentFilters] = useState<FilterParams>({});
+  const [currentSearch, setCurrentSearch] = useState("");
 
   async function handleNext() {
     const nextPage = page + 1;
@@ -30,6 +32,7 @@ export function ListingBoardClient({
       subjects: currentFilters.subjects,
       bands: currentFilters.bands,
       levels: currentFilters.levels,
+      search: currentSearch,
     });
     if (nextListings.length > 0) {
       setPage(nextPage);
@@ -46,6 +49,7 @@ export function ListingBoardClient({
       subjects: currentFilters.subjects,
       bands: currentFilters.bands,
       levels: currentFilters.levels,
+      search: currentSearch,
     });
     setListings(prevListings);
   }
@@ -59,6 +63,7 @@ export function ListingBoardClient({
       subjects: filters.subjects,
       bands: filters.bands,
       levels: filters.levels,
+      search: currentSearch,
     });
     setListings(filteredListings);
     setPage(1);
@@ -78,8 +83,28 @@ export function ListingBoardClient({
     return result;
   }
 
+  async function onSearchBarEnter() {
+    const currentListings = await getListings({
+      page: 1,
+      limit: limit,
+      subjects: currentFilters.subjects,
+      bands: currentFilters.bands,
+      levels: currentFilters.levels,
+      search: currentSearch,
+    });
+    setListings(currentListings);
+  }
+
   return (
     <div className="flex flex-col">
+      <div className="flex justify-center p-6">
+        <SearchBar
+          value={currentSearch}
+          onValueChange={setCurrentSearch}
+          onEnter={onSearchBarEnter}
+          listingLength={listings.length}
+        />
+      </div>
       <div className="flex flex-wrap justify-center gap-2">
         {listings.map((listing) => (
           <ListingCard details={listing} key={listing.id} />
