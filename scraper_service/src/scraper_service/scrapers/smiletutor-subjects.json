@@ -1,0 +1,4042 @@
+{
+  "results": [
+    {
+      "subject_id": 1,
+      "subject": "English",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 2,
+      "subject": "Math",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 3,
+      "subject": "Science",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 4,
+      "subject": "Chinese",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 5,
+      "subject": "Phonics",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 6,
+      "subject": "Creative Writing",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 7,
+      "subject": "Tamil",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 8,
+      "subject": "Malay",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 9,
+      "subject": "Art",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 339,
+      "subject": "Hindi",
+      "level_id": 1,
+      "level": "Pre-School"
+    },
+    {
+      "subject_id": 11,
+      "subject": "English",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 12,
+      "subject": "Math",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 13,
+      "subject": "Science",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 14,
+      "subject": "Chinese",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 15,
+      "subject": "Higher Chinese",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 16,
+      "subject": "Phonics",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 17,
+      "subject": "Creative Writing",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 18,
+      "subject": "Tamil",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 19,
+      "subject": "Malay",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 340,
+      "subject": "Hindi",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 686,
+      "subject": "Foundation English",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 687,
+      "subject": "Foundation Math",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 688,
+      "subject": "Foundation Science",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 689,
+      "subject": "Foundation Chinese",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 690,
+      "subject": "Coding",
+      "level_id": 2,
+      "level": "Primary"
+    },
+    {
+      "subject_id": 21,
+      "subject": "English",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 22,
+      "subject": "Math",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 23,
+      "subject": "Science",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 24,
+      "subject": "Chinese",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 25,
+      "subject": "Higher Chinese",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 26,
+      "subject": "History",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 27,
+      "subject": "Geography",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 28,
+      "subject": "Social Studies (SS)",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 29,
+      "subject": "Literature/Language Arts",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 30,
+      "subject": "Tamil",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 31,
+      "subject": "Malay",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 32,
+      "subject": "Higher Tamil",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 33,
+      "subject": "Higher Malay",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 252,
+      "subject": "Home Economics (Food & Nutrition)",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 341,
+      "subject": "Hindi",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 676,
+      "subject": "Humanities",
+      "level_id": 3,
+      "level": "Lower Secondary"
+    },
+    {
+      "subject_id": 35,
+      "subject": "English",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 36,
+      "subject": "Chinese",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 37,
+      "subject": "Higher Chinese",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 38,
+      "subject": "Additional Math",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 39,
+      "subject": "Elementary Math",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 40,
+      "subject": "Pure Physics",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 41,
+      "subject": "Pure Chemistry",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 42,
+      "subject": "Pure Biology",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 43,
+      "subject": "Combined Science (Physics/Chem)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 44,
+      "subject": "Combined Science (Chemistry/Biology)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 45,
+      "subject": "Combined Science (Physics/Biology)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 46,
+      "subject": "English Literature/Language Arts",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 47,
+      "subject": "POA",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 48,
+      "subject": "Pure History",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 49,
+      "subject": "Pure Geography",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 50,
+      "subject": "Social Studies (SS)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 51,
+      "subject": "Combined Humanities (History/SS)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 52,
+      "subject": "Combined Humanities (Geography/SS)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 53,
+      "subject": "Malay",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 54,
+      "subject": "Tamil",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 55,
+      "subject": "Combined Science (Physics Only)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 56,
+      "subject": "Combined Science (Chemistry Only)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 57,
+      "subject": "Combined Science (Biology Only)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 58,
+      "subject": "Combined Humanities (Geography Only)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 59,
+      "subject": "Combined Humanities (History Only)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 60,
+      "subject": "Combined Humanities (SS only)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 253,
+      "subject": "Higher Malay",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 254,
+      "subject": "Higher Tamil",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 342,
+      "subject": "Hindi",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 677,
+      "subject": "Computing",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 694,
+      "subject": "Science (NT)",
+      "level_id": 4,
+      "level": "Upper Secondary"
+    },
+    {
+      "subject_id": 62,
+      "subject": "General Paper",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 63,
+      "subject": "H1 Chinese Language",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 64,
+      "subject": "H1 Math",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 65,
+      "subject": "H2 Math",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 66,
+      "subject": "H1 Physics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 67,
+      "subject": "H2 Physics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 68,
+      "subject": "H1 Chemistry",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 69,
+      "subject": "H2 Chemistry",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 70,
+      "subject": "H1 Biology",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 71,
+      "subject": "H2 Biology",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 72,
+      "subject": "H1 Economics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 73,
+      "subject": "H2 Economics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 74,
+      "subject": "H1 History",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 75,
+      "subject": "H2 History",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 76,
+      "subject": "H1 Geography",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 77,
+      "subject": "H2 Geography",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 78,
+      "subject": "H3 Math",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 79,
+      "subject": "H3 Physics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 80,
+      "subject": "H3 Chemistry",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 81,
+      "subject": "H3 Biology",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 82,
+      "subject": "H3 Economics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 83,
+      "subject": "H3 History",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 84,
+      "subject": "H3 Geography",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 85,
+      "subject": "H2 English Language and Linguistics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 86,
+      "subject": "H1 Literature in English",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 87,
+      "subject": "H2 Literature in English",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 88,
+      "subject": "H3 Literature in English",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 89,
+      "subject": "H2 Knowledge & Inquiry",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 90,
+      "subject": "H2 Chinese Language and Literature",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 91,
+      "subject": "H1 China Studies in English",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 92,
+      "subject": "H2 China Studies in English",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 93,
+      "subject": "H2 China Studies in Chinese",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 94,
+      "subject": "H1 General Studies in Chinese",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 95,
+      "subject": "H2 Translation (Chinese)",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 96,
+      "subject": "H1 Malay Language",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 97,
+      "subject": "H2 Malay Language and literature",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 98,
+      "subject": "H1 Tamil Language",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 99,
+      "subject": "H2 Tamil Language and Literature",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 100,
+      "subject": "H2 POA",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 101,
+      "subject": "H2 Computing",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 102,
+      "subject": "H2 Music",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 103,
+      "subject": "H2 Management of Business",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 323,
+      "subject": "H1 Project Work (PW)",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 460,
+      "subject": "H2 Further Mathematics",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 695,
+      "subject": "H1 French",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 696,
+      "subject": "H2 French",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 697,
+      "subject": "H1 German",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 698,
+      "subject": "H2 German",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 699,
+      "subject": "H1 Japanese",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 700,
+      "subject": "H2 Japanese",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 701,
+      "subject": "H2 Spanish",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 702,
+      "subject": "Arabic",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 703,
+      "subject": "Bahasa Indonesia",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 704,
+      "subject": "Chinese (Special Programme",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 705,
+      "subject": "Malay (Special Programme)",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 706,
+      "subject": "H2 Principles of Accounting",
+      "level_id": 5,
+      "level": "Junior College"
+    },
+    {
+      "subject_id": 105,
+      "subject": "HL Mathematics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 106,
+      "subject": "SL Mathematics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 107,
+      "subject": "HL Chemistry",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 108,
+      "subject": "SL Chemistry",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 109,
+      "subject": "HL Physics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 110,
+      "subject": "SL Physics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 111,
+      "subject": "HL Biology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 112,
+      "subject": "SL Biology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 113,
+      "subject": "HL History",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 114,
+      "subject": "SL History",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 115,
+      "subject": "HL Geography",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 116,
+      "subject": "SL Geography",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 117,
+      "subject": "HL Economics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 118,
+      "subject": "SL Economics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 119,
+      "subject": "Language B SL English",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 120,
+      "subject": "Language B HL English",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 121,
+      "subject": "Ab initio SL English",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 122,
+      "subject": "Language B SL Chinese",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 123,
+      "subject": "Language B HL Chinese",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 124,
+      "subject": "Ab initio SL Chinese",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 125,
+      "subject": "HL Language & Literature (English)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 126,
+      "subject": "SL Language & Literature (English)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 127,
+      "subject": "HL Language & Literature (Chinese)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 128,
+      "subject": "SL Language & Literature (Chinese)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 129,
+      "subject": "SL Literature and Performance",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 130,
+      "subject": "Language B SL Malay",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 131,
+      "subject": "Language B HL Malay",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 132,
+      "subject": "Ab initio SL Malay",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 133,
+      "subject": "Language B SL Tamil",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 134,
+      "subject": "Language B HL Tamil",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 135,
+      "subject": "Ab initio SL Tamil",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 136,
+      "subject": "Language B SL Hindi",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 137,
+      "subject": "Language B HL Hindi",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 138,
+      "subject": "Ab initio SL Hindi",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 139,
+      "subject": "Language B SL Spanish",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 140,
+      "subject": "Language B HL Spanish",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 141,
+      "subject": "Ab initio SL Spanish",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 142,
+      "subject": "Language B SL French",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 143,
+      "subject": "Language B HL French",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 144,
+      "subject": "Ab initio SL French",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 145,
+      "subject": "Theory of Knowledge",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 146,
+      "subject": "Extended Essay",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 147,
+      "subject": "HL Further Mathematics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 148,
+      "subject": "SL Further Mathematics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 149,
+      "subject": "SL Mathematical Studies",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 150,
+      "subject": "SL Business and Management",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 151,
+      "subject": "HL Business and Management",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 152,
+      "subject": "HL Design Technology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 153,
+      "subject": "SL Design Technology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 154,
+      "subject": "HL Computer Science",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 155,
+      "subject": "SL Computer Science",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 156,
+      "subject": "HL Information technology in a global society (ITGS)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 157,
+      "subject": "SL Information technology in a global society (ITGS)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 158,
+      "subject": "Environmental Systems and Societies",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 159,
+      "subject": "Sport, Exercise and Health science",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 160,
+      "subject": "HL Social and cultural anthropology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 161,
+      "subject": "SL Social and cultural anthropology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 162,
+      "subject": "Environmental Systems and Societies SL",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 163,
+      "subject": "World religions SL",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 164,
+      "subject": "HL Philosophy",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 165,
+      "subject": "SL Philosophy",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 166,
+      "subject": "HL Psychology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 167,
+      "subject": "SL Psychology",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 168,
+      "subject": "Global politics",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 169,
+      "subject": "HL Dance",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 170,
+      "subject": "SL Dance",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 171,
+      "subject": "HL Theatre",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 172,
+      "subject": "SL Theatre",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 173,
+      "subject": "HL Music",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 174,
+      "subject": "SL Music",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 175,
+      "subject": "HL Visual Arts",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 176,
+      "subject": "SL Visual Arts",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 177,
+      "subject": "HL Film",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 178,
+      "subject": "SL Film",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 344,
+      "subject": "Language (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 345,
+      "subject": "Maths (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 346,
+      "subject": "Science (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 347,
+      "subject": "Social studies (SS) (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 348,
+      "subject": "Arts (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 349,
+      "subject": "PSPE: Personal social and physical education (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 350,
+      "subject": "Language acquisition (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 351,
+      "subject": "Language and literature (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 352,
+      "subject": "Individuals and societies (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 353,
+      "subject": "Sciences (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 354,
+      "subject": "Mathematics (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 355,
+      "subject": "Arts (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 356,
+      "subject": "Physical and health education (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 357,
+      "subject": "Design (MYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 678,
+      "subject": "English (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 679,
+      "subject": "Mandarin (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 680,
+      "subject": "Hindi (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 681,
+      "subject": "French (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 682,
+      "subject": "Tamil (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 683,
+      "subject": "Music (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 684,
+      "subject": "Dance (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 685,
+      "subject": "Technology (PYP)",
+      "level_id": 6,
+      "level": "IB"
+    },
+    {
+      "subject_id": 179,
+      "subject": "Physics",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 180,
+      "subject": "Chemistry",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 181,
+      "subject": "Biology",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 182,
+      "subject": "Science (Grade 7-8)",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 183,
+      "subject": "Mathematics",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 184,
+      "subject": "Additional Mathematics",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 185,
+      "subject": "History",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 186,
+      "subject": "Geography",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 187,
+      "subject": "English",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 188,
+      "subject": "English as a Second Language",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 189,
+      "subject": "Literature (English)",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 190,
+      "subject": "Chinese",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 191,
+      "subject": "Malay",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 192,
+      "subject": "Tamil",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 193,
+      "subject": "Hindi",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 194,
+      "subject": "French",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 195,
+      "subject": "Japanese",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 196,
+      "subject": "Spanish",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 197,
+      "subject": "Economics",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 198,
+      "subject": "Accounting",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 199,
+      "subject": "Business Studies",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 200,
+      "subject": "Computer Science",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 201,
+      "subject": "Art",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 202,
+      "subject": "Drama",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 203,
+      "subject": "Music",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 204,
+      "subject": "Religious Studies",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 461,
+      "subject": "Information and Communication Technology",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 462,
+      "subject": "Computer Applications",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 463,
+      "subject": "Maths-Stats",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 464,
+      "subject": "Information Technology (IT)",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 465,
+      "subject": "Law",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 692,
+      "subject": "Coordinated Science",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 693,
+      "subject": "Cambridge Primary English",
+      "level_id": 7,
+      "level": "IGCSE"
+    },
+    {
+      "subject_id": 205,
+      "subject": "English",
+      "level_id": 8,
+      "level": "AEIS"
+    },
+    {
+      "subject_id": 206,
+      "subject": "Math",
+      "level_id": 8,
+      "level": "AEIS"
+    },
+    {
+      "subject_id": 207,
+      "subject": "Mathematics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 208,
+      "subject": "Economics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 209,
+      "subject": "Accounting",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 210,
+      "subject": "Art & Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 211,
+      "subject": "Information Systems",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 212,
+      "subject": "Computer Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 213,
+      "subject": "Electrical Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 214,
+      "subject": "Chemical Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 215,
+      "subject": "Mechanical Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 216,
+      "subject": "Architecture",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 217,
+      "subject": "Marketing",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 218,
+      "subject": "Operations Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 219,
+      "subject": "Human Resource",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 220,
+      "subject": "Communications",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 221,
+      "subject": "Medicine",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 222,
+      "subject": "Biological Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 223,
+      "subject": "Social Sciences",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 224,
+      "subject": "Law",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 225,
+      "subject": "Finance",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 250,
+      "subject": "Business Admin (Management/BBA)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 251,
+      "subject": "Business Statistics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 297,
+      "subject": "Psychology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 298,
+      "subject": "Computer Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 299,
+      "subject": "Information Technology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 300,
+      "subject": "Business Analytics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 301,
+      "subject": "Aerospace Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 302,
+      "subject": "Civil Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 303,
+      "subject": "Biomedical Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 304,
+      "subject": "Engineering Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 305,
+      "subject": "Environmental Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 306,
+      "subject": "Industrial & Systems Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 307,
+      "subject": "Materials Science and Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 308,
+      "subject": "Industrial Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 309,
+      "subject": "Real Estate",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 310,
+      "subject": "Project & Facilities Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 311,
+      "subject": "Political Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 312,
+      "subject": "Language Studies (Arabic Language)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 313,
+      "subject": "Language Studies (Bahasa Indonesia)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 314,
+      "subject": "Language Studies (Malay)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 315,
+      "subject": "Language Studies (Thai)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 316,
+      "subject": "Language Studies (Vietnamese)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 317,
+      "subject": "Language Studies (Chinese Language)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 318,
+      "subject": "Language Studies (French and German)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 319,
+      "subject": "Language Studies (Hindi and Tamil)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 320,
+      "subject": "Language Studies (Japanese)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 321,
+      "subject": "Language Studies (Korean)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 322,
+      "subject": "Language Studies (Spanish)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 358,
+      "subject": "Music",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 402,
+      "subject": "Business Admin",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 403,
+      "subject": "Mass Comm",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 404,
+      "subject": "Financial Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 405,
+      "subject": "Applied Mathematics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 406,
+      "subject": "Statistics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 408,
+      "subject": "History",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 409,
+      "subject": "Geography",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 410,
+      "subject": "Sociology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 411,
+      "subject": "Literature",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 413,
+      "subject": "Pharmacy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 414,
+      "subject": "Physics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 415,
+      "subject": "Chemistry",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 416,
+      "subject": "Biology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 417,
+      "subject": "Bioengineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 418,
+      "subject": "Applied Chemistry",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 419,
+      "subject": "Life Sciences",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 420,
+      "subject": "Communications & New Media",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 421,
+      "subject": "ECommerce",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 459,
+      "subject": "Language Studies (English)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 475,
+      "subject": "Drama and Theatre Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 476,
+      "subject": "Education (Special Education)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 477,
+      "subject": "Clean Energy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 478,
+      "subject": "Advanced & Digital Manufacturing",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 479,
+      "subject": "Air Transport Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 480,
+      "subject": "Animation & Visual Effects",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 481,
+      "subject": "Applied Drama & Psychology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 482,
+      "subject": "Aquaculture (Business and Environment)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 483,
+      "subject": "Artificial Intelligence",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 484,
+      "subject": "Arts & Theatre Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 485,
+      "subject": "Arts Business Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 486,
+      "subject": "Automation & Mechatronic Systems",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 487,
+      "subject": "Aviation Applied Sciences",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 488,
+      "subject": "Aviation Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 489,
+      "subject": "Big Data",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 490,
+      "subject": "Biologics & Process Technology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 491,
+      "subject": "Biomedical Sciences",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 492,
+      "subject": "Business Information Systems",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 493,
+      "subject": "Business Intelligence & Analytics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 494,
+      "subject": "Business Law",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 495,
+      "subject": "Chemical & Pharmaceutical Technology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 496,
+      "subject": "Chemical and Biomolecular Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 497,
+      "subject": "Chemistry and Biological Chemistry",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 498,
+      "subject": "Chinese Media & Communication",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 499,
+      "subject": "Chinese Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 500,
+      "subject": "Commerce",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 501,
+      "subject": "Communication Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 502,
+      "subject": "Community Development",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 503,
+      "subject": "Computational Biology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 504,
+      "subject": "Computing",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 505,
+      "subject": "Computing and Law",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 506,
+      "subject": "Construction Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 507,
+      "subject": "Consumer Behaviour & Research",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 508,
+      "subject": "Counselling",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 509,
+      "subject": "Creative Writing for Television & New Media",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 510,
+      "subject": "Criminology and Security",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 511,
+      "subject": "Customer Experience Management with Business",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 512,
+      "subject": "Cyber Security and Forensics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 513,
+      "subject": "Data Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 514,
+      "subject": "Dentistry",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 515,
+      "subject": "Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 516,
+      "subject": "Diagnostic Radiography",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 517,
+      "subject": "Dietetics and Nutrition",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 518,
+      "subject": "Digital Art and Animation",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 519,
+      "subject": "Digital Audio",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 520,
+      "subject": "Digital Business",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 521,
+      "subject": "Digital Communications and Integrated Media",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 522,
+      "subject": "Digital Design & Development",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 523,
+      "subject": "Digital Innovation",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 524,
+      "subject": "Digital Media",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 525,
+      "subject": "Digital Systems Security",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 526,
+      "subject": "Early Childhood Education",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 527,
+      "subject": "Early Years Education",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 528,
+      "subject": "Electronics and Data Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 529,
+      "subject": "Electronics Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 530,
+      "subject": "Engineering with Business",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 531,
+      "subject": "Environmental & Water Technology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 534,
+      "subject": "Event & Facilities Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 535,
+      "subject": "Events Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 536,
+      "subject": "Experience & Communication Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 537,
+      "subject": "Film, Television Sound & Video",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 538,
+      "subject": "Financial Informatics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 539,
+      "subject": "Food Business Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 540,
+      "subject": "Food Science & Nutrition",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 541,
+      "subject": "Food Science and Technology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 542,
+      "subject": "Game Design (Computer Science)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 543,
+      "subject": "Game Design and Development",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 544,
+      "subject": "General Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 545,
+      "subject": "Geographic Information Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 546,
+      "subject": "Green Building Energy Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 547,
+      "subject": "Health, Safety and Environment",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 548,
+      "subject": "Hospitality and Tourism Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 549,
+      "subject": "Hospitality Business",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 550,
+      "subject": "Hotel Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 551,
+      "subject": "Human Factors in Safety",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 552,
+      "subject": "Industrial & Operations Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 553,
+      "subject": "Infocomm & Media Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 554,
+      "subject": "Infocomm & Security",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 555,
+      "subject": "Infocomm Security Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 556,
+      "subject": "Information and Communication",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 557,
+      "subject": "Information Engineering and Media",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 558,
+      "subject": "Information Security",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 559,
+      "subject": "Interactive Media",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 560,
+      "subject": "Interior Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 561,
+      "subject": "International Business",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 562,
+      "subject": "International Marketing",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 563,
+      "subject": "International Trade",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 564,
+      "subject": "Japanese Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 565,
+      "subject": "Journalism",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 566,
+      "subject": "Landscape Architecture",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 567,
+      "subject": "Landscape Design & Horticulture",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 568,
+      "subject": "Liberal Arts",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 569,
+      "subject": "Linguistics and Multilingual Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 570,
+      "subject": "Logistic and Supply Chain Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 571,
+      "subject": "Machine Learning",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 572,
+      "subject": "Malay Literature",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 573,
+      "subject": "Malay Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 574,
+      "subject": "Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 575,
+      "subject": "Management and Security Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 576,
+      "subject": "Marine & Offshore Technology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 577,
+      "subject": "Marine Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 578,
+      "subject": "Marine Science & Aquaculture",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 579,
+      "subject": "Maritime Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 580,
+      "subject": "Mass Media Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 581,
+      "subject": "Materials Engineering & Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 582,
+      "subject": "Mathematical Sciences",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 583,
+      "subject": "Mechanical Design and Manufacturing Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 584,
+      "subject": "Mechatronic Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 585,
+      "subject": "Media Post-Production",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 586,
+      "subject": "Medical Biotechnology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 587,
+      "subject": "Medicinal Chemistry",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 588,
+      "subject": "Motion Graphics Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 589,
+      "subject": "Nanotechnology & Materials Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 590,
+      "subject": "Naval Architecture",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 591,
+      "subject": "Nursing",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 592,
+      "subject": "Occupational Therapy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 593,
+      "subject": "Offshore Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 595,
+      "subject": "Optometry",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 596,
+      "subject": "Oral Health Therapy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 597,
+      "subject": "Outdoor & Adventure Learning",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 598,
+      "subject": "Perfumery & Cosmetic Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 599,
+      "subject": "Pharmaceutical Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 600,
+      "subject": "Pharmaceutical Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 601,
+      "subject": "Philosophy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 602,
+      "subject": "Physiotherapy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 603,
+      "subject": "Politics, Law and Economics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 604,
+      "subject": "Polticial Science and Sociology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 605,
+      "subject": "Product Development Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 607,
+      "subject": "Project Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 608,
+      "subject": "Project, Building & Facilities Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 609,
+      "subject": "Psychological Science",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 610,
+      "subject": "Public Policy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 611,
+      "subject": "Public Relations",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 612,
+      "subject": "Public Safety and Security",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 613,
+      "subject": "Quantitative Finance",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 614,
+      "subject": "Radiation Therapy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 615,
+      "subject": "Real-Time Interactive Simulation",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 616,
+      "subject": "Restaurant & Culinary Operations",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 617,
+      "subject": "Retail Marketing",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 618,
+      "subject": "Robotics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 619,
+      "subject": "Social Sciences in Gerontology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 620,
+      "subject": "Social Work",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 622,
+      "subject": "Sonic Arts",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 623,
+      "subject": "Sound Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 624,
+      "subject": "South Asian Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 625,
+      "subject": "Southeast Asian Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 626,
+      "subject": "Spatial Design",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 627,
+      "subject": "Speech and Language Therapy",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 628,
+      "subject": "Sport & Wellness Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 629,
+      "subject": "Sport Coaching",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 630,
+      "subject": "Sport Science and Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 631,
+      "subject": "Sports and Physical Education",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 632,
+      "subject": "Sports Performance and Coaching",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 633,
+      "subject": "Sports Studies",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 634,
+      "subject": "Supply Chain Management",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 635,
+      "subject": "Sustainable Infrastructure Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 636,
+      "subject": "Systems Enginnering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 637,
+      "subject": "Tamil Literature",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 638,
+      "subject": "Telematrics",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 639,
+      "subject": "Translation and Interpretation",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 640,
+      "subject": "User Experience and Software Development",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 641,
+      "subject": "Veterinary Technology",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 642,
+      "subject": "Visual Communication",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 643,
+      "subject": "Web and Mobile Application Development",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 645,
+      "subject": "International Relations",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 707,
+      "subject": "Language Studies (French)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 708,
+      "subject": "Language Studies (German)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 709,
+      "subject": "Language Studies (Hindi)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 710,
+      "subject": "Language Studies (Tamil)",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 711,
+      "subject": "Common Engineering",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 712,
+      "subject": "Programming",
+      "level_id": 9,
+      "level": "University/Poly"
+    },
+    {
+      "subject_id": 226,
+      "subject": "English",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 227,
+      "subject": "Chinese",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 228,
+      "subject": "Bahasa Indonesia",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 229,
+      "subject": "Arabic",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 230,
+      "subject": "Dutch",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 231,
+      "subject": "French",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 232,
+      "subject": "German",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 233,
+      "subject": "Greek",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 234,
+      "subject": "Hindi",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 235,
+      "subject": "Italian",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 236,
+      "subject": "Japanese",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 237,
+      "subject": "Korean",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 238,
+      "subject": "Portuguese",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 239,
+      "subject": "Russian",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 240,
+      "subject": "Spanish",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 241,
+      "subject": "Thai",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 242,
+      "subject": "Vietnamese",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 324,
+      "subject": "Tamil",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 325,
+      "subject": "Malay",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 343,
+      "subject": "Punjabi",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 401,
+      "subject": "Tagalog",
+      "level_id": 10,
+      "level": "Languages (Adult)"
+    },
+    {
+      "subject_id": 243,
+      "subject": "Piano",
+      "level_id": 11,
+      "level": "Music"
+    },
+    {
+      "subject_id": 244,
+      "subject": "Violin",
+      "level_id": 11,
+      "level": "Music"
+    },
+    {
+      "subject_id": 245,
+      "subject": "Guitar",
+      "level_id": 11,
+      "level": "Music"
+    },
+    {
+      "subject_id": 246,
+      "subject": "Drums",
+      "level_id": 11,
+      "level": "Music"
+    },
+    {
+      "subject_id": 247,
+      "subject": "Organ",
+      "level_id": 11,
+      "level": "Music"
+    },
+    {
+      "subject_id": 248,
+      "subject": "Saxophone",
+      "level_id": 11,
+      "level": "Music"
+    },
+    {
+      "subject_id": 249,
+      "subject": "Other Instruments",
+      "level_id": 11,
+      "level": "Music"
+    },
+    {
+      "subject_id": 426,
+      "subject": "Anger Management",
+      "level_id": 12,
+      "level": "Special Needs"
+    },
+    {
+      "subject_id": 427,
+      "subject": "Slow Learner",
+      "level_id": 12,
+      "level": "Special Needs"
+    },
+    {
+      "subject_id": 428,
+      "subject": "Down Syndrome",
+      "level_id": 12,
+      "level": "Special Needs"
+    },
+    {
+      "subject_id": 258,
+      "subject": "Primary English Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 259,
+      "subject": "Primary Math Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 260,
+      "subject": "Primary Science Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 261,
+      "subject": "Primary Chinese Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 262,
+      "subject": "Secondary English Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 263,
+      "subject": "Secondary Maths Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 264,
+      "subject": "Secondary Physics Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 265,
+      "subject": "Secondary Chemistry Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 266,
+      "subject": "Secondary Biology Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 267,
+      "subject": "Secondary History Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 268,
+      "subject": "Secondary Geography Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 269,
+      "subject": "Secondary Chinese Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 270,
+      "subject": "JC GP Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 271,
+      "subject": "JC Math Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 272,
+      "subject": "JC Physics Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 273,
+      "subject": "JC Chemistry Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 274,
+      "subject": "JC Biology Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 275,
+      "subject": "JC Chinese Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 276,
+      "subject": "JC Economics Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 277,
+      "subject": "JC History Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 278,
+      "subject": "JC Geography Group Tuition",
+      "level_id": 13,
+      "level": "Group Tuition"
+    },
+    {
+      "subject_id": 279,
+      "subject": "Singapore Mathematical Olympiad (SMO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 280,
+      "subject": "Singapore Chemistry Olympiad (SChO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 281,
+      "subject": "Singapore Physics Olympiad (SPO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 282,
+      "subject": "Singapore Biology Olympiad (SBO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 283,
+      "subject": "International Mathematics & Science Olympiad (IMSO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 284,
+      "subject": "International Junior Science Olympiad (IJSO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 285,
+      "subject": "International Geography Olympiad (IGeO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 286,
+      "subject": "International Mathematical Olympiad (IMO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 287,
+      "subject": "International Chemistry Olympiad (IChO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 288,
+      "subject": "International Physics Olympiad (IPhO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 289,
+      "subject": "International Biology Olympiad (IBO)",
+      "level_id": 14,
+      "level": "Olympiads"
+    },
+    {
+      "subject_id": 290,
+      "subject": "International English Language Testing System (IELTS)",
+      "level_id": 15,
+      "level": "English Tests"
+    },
+    {
+      "subject_id": 291,
+      "subject": "Test of English as a Foreign Language (TOEFL)",
+      "level_id": 15,
+      "level": "English Tests"
+    },
+    {
+      "subject_id": 292,
+      "subject": "Test of English for International Communication (TOEIC)",
+      "level_id": 15,
+      "level": "English Tests"
+    },
+    {
+      "subject_id": 293,
+      "subject": "Oral Proficiency Interview (OPI/OPIc)",
+      "level_id": 15,
+      "level": "English Tests"
+    },
+    {
+      "subject_id": 732,
+      "subject": "Cambridge English Qualification (CEQ)",
+      "level_id": 15,
+      "level": "English Tests"
+    },
+    {
+      "subject_id": 294,
+      "subject": "SAT",
+      "level_id": 16,
+      "level": "US College Admission"
+    },
+    {
+      "subject_id": 295,
+      "subject": "Advanced Placement (AP)",
+      "level_id": 16,
+      "level": "US College Admission"
+    },
+    {
+      "subject_id": 296,
+      "subject": "Law School Admission Test (LSAT)",
+      "level_id": 16,
+      "level": "US College Admission"
+    },
+    {
+      "subject_id": 424,
+      "subject": "GRE",
+      "level_id": 16,
+      "level": "US College Admission"
+    },
+    {
+      "subject_id": 425,
+      "subject": "GMAT",
+      "level_id": 16,
+      "level": "US College Admission"
+    },
+    {
+      "subject_id": 644,
+      "subject": "Other",
+      "level_id": 17,
+      "level": "Others"
+    },
+    {
+      "subject_id": 359,
+      "subject": "ASP",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 360,
+      "subject": "C++",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 361,
+      "subject": "C#",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 362,
+      "subject": "Java",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 363,
+      "subject": "PHP",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 364,
+      "subject": "Python",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 365,
+      "subject": "VB",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 366,
+      "subject": "MSSQL",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 367,
+      "subject": "Oracle",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 368,
+      "subject": "Photoshop",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 369,
+      "subject": "Illustrator",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 370,
+      "subject": "AutoCAD",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 371,
+      "subject": "GIS",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 372,
+      "subject": "3D Design",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 373,
+      "subject": "Flash",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 374,
+      "subject": "Web Design",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 375,
+      "subject": "Linux",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 376,
+      "subject": "Macintosh",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 377,
+      "subject": "Solaris",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 378,
+      "subject": "Windows",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 379,
+      "subject": "MS Office",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 380,
+      "subject": "MySQL",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 713,
+      "subject": "Coding",
+      "level_id": 19,
+      "level": "Computer"
+    },
+    {
+      "subject_id": 381,
+      "subject": "Swimming",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 382,
+      "subject": "Tennis",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 383,
+      "subject": "Squash",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 384,
+      "subject": "Golf",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 385,
+      "subject": "Aerobics",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 386,
+      "subject": "Badminton",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 387,
+      "subject": "Table Tennis",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 388,
+      "subject": "Bowling",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 389,
+      "subject": "Yoga",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 390,
+      "subject": "Pilates",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 391,
+      "subject": "Ballet",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 392,
+      "subject": "Kickboxing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 393,
+      "subject": "Dancing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 394,
+      "subject": "Fencing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 395,
+      "subject": "Karate",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 396,
+      "subject": "Taekwondo",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 397,
+      "subject": "Martial Arts",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 398,
+      "subject": "Taichi",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 399,
+      "subject": "Roller-blading",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 400,
+      "subject": "Basketball",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 467,
+      "subject": "Art",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 646,
+      "subject": "Chess",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 647,
+      "subject": "Chinese Chess",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 648,
+      "subject": "Soccer",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 649,
+      "subject": "Rugby",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 650,
+      "subject": "Sailing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 651,
+      "subject": "Silat",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 652,
+      "subject": "Weightlifting",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 653,
+      "subject": "Track and Field",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 654,
+      "subject": "Bodybuilding",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 655,
+      "subject": "Wushu",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 656,
+      "subject": "Dragonboating",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 657,
+      "subject": "Rowing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 658,
+      "subject": "Netball",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 659,
+      "subject": "Cricket",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 660,
+      "subject": "Cycling",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 661,
+      "subject": "Running",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 662,
+      "subject": "Baseball",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 663,
+      "subject": "Boxing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 664,
+      "subject": "MMA / Jiu-jitsu",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 665,
+      "subject": "Frisbee",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 666,
+      "subject": "Breakdancing / Freestyle",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 667,
+      "subject": "Kpop dance",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 668,
+      "subject": "Spinning",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 669,
+      "subject": "Gymnastics",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 670,
+      "subject": "Hip-hop dancing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 671,
+      "subject": "Contemporary dancing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 672,
+      "subject": "Ballroom dancing",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 673,
+      "subject": "Chinese dance",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 674,
+      "subject": "Zumba",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 675,
+      "subject": "Parkour / Free Running",
+      "level_id": 20,
+      "level": "Sports"
+    },
+    {
+      "subject_id": 429,
+      "subject": "English",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 430,
+      "subject": "Chinese",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 431,
+      "subject": "Higher Chinese",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 432,
+      "subject": "Additional Math",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 433,
+      "subject": "Elementary Math",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 434,
+      "subject": "Physics",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 435,
+      "subject": "Chemistry",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 436,
+      "subject": "Biology",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 440,
+      "subject": "English Literature/Language Arts",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 441,
+      "subject": "POA",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 442,
+      "subject": "History",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 443,
+      "subject": "Geography",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 444,
+      "subject": "Social Studies (SS)",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 447,
+      "subject": "Malay",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 448,
+      "subject": "Tamil",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 455,
+      "subject": "Other",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 456,
+      "subject": "Higher Malay",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 457,
+      "subject": "Higher Tamil",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 458,
+      "subject": "Hindi",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 466,
+      "subject": "Computing/Computer Science",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 468,
+      "subject": "Design & Technology",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 469,
+      "subject": "Exercise And Sports Science",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 470,
+      "subject": "Food And Consumer Education",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 471,
+      "subject": "Higher Music",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 472,
+      "subject": "Higher Art",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 473,
+      "subject": "Infocomm Studies",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 474,
+      "subject": "Economics",
+      "level_id": 21,
+      "level": "IP"
+    },
+    {
+      "subject_id": 691,
+      "subject": "Science",
+      "level_id": 21,
+      "level": "IP"
+    }
+  ]
+}
